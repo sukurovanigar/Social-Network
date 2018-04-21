@@ -1,0 +1,231 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #953e46;
+    height: 100%;
+    color: white;
+}
+hr{
+    border-width: 2px;
+    border-color: white;
+}
+.container{
+    margin: 20px auto;
+    height: 100%;
+    width: 1170px;
+}
+/* header */
+header {
+    height: 100px;
+}
+header ul li {
+    margin-top: 20px;
+    float: left;
+    list-style: none;
+    margin-left: 20px;
+}
+header ul li .icon {
+    font-weight: 600;
+    font-size: 50px;
+    margin-left: -20px;
+    cursor: pointer;
+}
+header ul li .icon span {
+    font-weight: 300;
+
+}
+header ul li input {
+    width: 450px;
+    height: 50px;
+    color: #953e46;
+    outline: none;
+    border-style: none;
+}
+header ul li input[placeholder] {
+    text-indent: 10px;
+    color: #953e46;
+    font-size: 16px;
+}
+::placeholder { 
+    color: #953e46;
+    opacity: 1;
+}
+header ul li input[type='text'] {
+    background-image: url(../img/ico.png);
+    background-position: 98% 10px;
+    background-repeat: no-repeat;
+    color:#953e46;
+    background-size: 20px;
+}
+header ul li button {
+    height: 50px;
+    width: 180px;
+    text-align: center;
+    font-size: 20px;
+    line-height: 20px;
+    color: #953e46;
+    background-color: white;
+    border-style: solid;
+    outline: none;
+    font-weight: 600;
+    cursor: pointer;
+}
+header ul li .fa-user {
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    color: #953e46;
+    font-size: 20px;
+    line-height: 50px;
+    text-align: center;
+    cursor: pointer;
+    margin-right: 5px !important;
+}
+.user {
+    position: relative;
+    margin-left: 0.7% !important;
+}
+/* end of te header */
+
+/* navbar breadcrumbs */
+.breadcrumbs ul li{
+    display: inline-block;
+    margin-right: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 23px;
+    font-weight: 600;
+}
+.breadcrumbs ul li span{
+    margin-left: 12px;
+}
+/* end nabar */
+
+/* videos */
+.ekran{
+    position: relative;
+    width: 100%;
+    height: 167%;
+    display: inline-block;
+}
+.sol{
+    width: 700px;
+    margin: 0;
+}
+.sag{
+    position: absolute;
+    right: 0px;
+    height: 100%;
+    top: 35px;
+}
+
+.videos{
+    position: relative;
+    margin-top: 30px;
+    height:500px ;
+    width: 700px;
+    color:#953e46;
+}
+.videos .big{
+    position: relative;
+    background-color: white;
+    width: 415px;
+    margin-right: 12px;
+    border: 3px outset #953e46;
+    height: 310px;
+    float: left;
+}
+.videos #lorem{
+   clear: both;
+   position: absolute;
+   bottom: 55px;
+   left:5px;
+   font-size: 25px;
+}
+.videos #lorem2{
+    clear: both;
+    position: absolute;
+    top: 12px;
+    left:5px;
+    font-size: 20px;
+ }
+ .videos #view{
+    clear: both;
+    position: absolute;
+    bottom: 12px;
+    right:5px;
+ }
+ .small{
+     position: relative;
+     background-color: white;
+     border: 3px outset #953e46;
+     width: 200px;
+     height: 150px;
+     display: inline-block;
+     margin-right: 10px;
+ }
+#one{
+    margin-bottom: 10px;
+}
+.different{
+    position: absolute;
+    background-color: #953e46;
+    border: 1px solid white;
+    margin-top:4px;
+    color:white;
+    height:145px;
+    display: inline-block;
+}
+/* activity */
+.clearfix{
+    clear: both;
+}
+.activity{
+    width: 520px;
+    height: 300px;
+    float: right;
+}
+.activity .activs{
+    width: 100%;
+    height: 70px;
+    margin-top:8px;
+}
+.activity .activs .img{
+    height: 65px;
+    width: 100px;
+    background-color: white;
+    border: 1px outset #953e46;
+    display: inline-block;
+}
+.yazi{
+    float: right;
+    width: 415px;
+    height: 100%;
+    margin:0;
+}
+.Channels{
+    width: 515px;
+    position:absolute;
+    top: 550px;
+}
+.Channels .channel{
+    position: relative;
+    color:#953e46;
+    background-color: white;
+    display: inline-block;
+    width: 240px;
+    height: 110px;
+    margin:10px 5px;
+    border: 1px outset #953e46;
+}
+.Channels .channel span{
+    position: absolute;
+    bottom:10px;
+    font-size: 20px;
+}
+.footerhr{
+    margin-top: 100px;
+}

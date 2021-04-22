@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables</title>
+    <link rel="stylesheet" href="css/Table.css">
+</head>
+
+<body onload="Interval()">
+    <div class="tableDiv">
+        
+        <div class="sty">
+            <h3>Untere Grenze:</h3> <input type="number" value="1" step="1" id="von" class="inter" min="0" max="1000"
+                title="Untergrenze"><br>
+        </div>
+        <div class="sty">
+            <h3>Obere Grenze:</h3> <input type="number" value="10" step="1" id="bis" class="inter" min="0" max="1000"
+                title="Obergrenze"><br>
+        </div>
+        <div class="sty">
+            <h3>Schrittweite:</h3> <input type="number" value="1" step="1" id="step" class="inter" min="0" max="10"
+                title="Schrittweite"><br>
+        </div>
+        <button id="btn" onclick="Interval()">Normal</button>
+        <button type="button" onclick="findPrimes(document.getElementById('bis').value)">Primezahl</button>
+        <p id="prim"></p>
+
+        <hr>
+        <table id="table">
+            <tr>
+                <th>i</th>
+                <th>i²</th>
+                <th>i³</th>
+                <th>wurzel(i)</th>
+                <th>ln(i)</th>
+                <th>e^i</th>
+            </tr>
+            <script src="js/tables.js"></script>
+        </table>
+    </div>
+</body>
+
+</html>
